@@ -3514,6 +3514,10 @@ footer .widget_title {
 .footer_logo {
 	margin-bottom: 15px;
 }
+.footer_logo.acm-logo{
+	margin-bottom: 75px;
+	padding: 15px;
+}
 .widget_links li,
 .widget_links_style2 li {
     margin: 0;
