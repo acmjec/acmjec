@@ -610,7 +610,7 @@ button:focus {
 	background-color: rgba(47, 48, 60, 0.10);
 }
 .overlay_bg_blue_90::before {
-	background-color: rgba(12, 14, 39, 0.90);
+	background-color: rgba(12, 14, 39, 1);
 }
 .overlay_bg_blue_80::before {
 	background-color: rgba(12, 14, 39, 0.80);
