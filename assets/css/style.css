@@ -512,6 +512,7 @@ button:focus {
 .overlay_bg_default_20:before,
 .overlay_bg_default_10:before,
 .overlay_bg_blue_90:before,
+.overlay_bg_blue_100:before,
 .overlay_bg_blue_80:before,
 .overlay_bg_blue_70:before,
 .overlay_bg_blue_60:before,
@@ -527,6 +528,9 @@ button:focus {
 	right: 0;
 	top: 0;
 	z-index: 0;
+}
+.overlay_bg_100::before {
+	background-color: rgba(0, 0, 0, 0.90);
 }
 .overlay_bg_90::before {
 	background-color: rgba(0, 0, 0, 0.90);
@@ -608,6 +612,9 @@ button:focus {
 }
 .overlay_bg_dark_10::before {
 	background-color: rgba(47, 48, 60, 0.10);
+}
+.overlay_bg_blue_100::before {
+	background-color: rgba(12, 14, 39);
 }
 .overlay_bg_blue_90::before {
 	background-color: rgba(12, 14, 39, 0.90);
@@ -933,11 +940,15 @@ button:focus {
 	top: 10px;
 }
 .navbar .navbar-nav > li > .nav-link {
+
 	font-size: 14px;
 	font-weight: 600;
 	padding: 25px 10px;
 	text-transform: uppercase;
+	
+
 }
+
 .main_menu_capitalize .navbar .navbar-nav > li > .nav-link {
 	text-transform: capitalize;
 }
@@ -965,7 +976,7 @@ button:focus {
 .main_menu_weight_800 .navbar .navbar-nav > li > .nav-link {
 	font-weight: 800;
 }
-.main_menu_weight_900 .navbar .navbar-nav > li > .nav-link {
+.main_menu_weight_900 onavbar .navbar-nav > li > .nav-link {
 	font-weight: 900;
 }
 .main_menu_size_16 .navbar .navbar-nav > li > .nav-link {
