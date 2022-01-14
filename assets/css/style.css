@@ -42,6 +42,57 @@ h1,h2,h3,h4,h5,h6 {
 	color: #292b2c;
 	font-family: "Montserrat", sans-serif;
 }
+.black{
+	color:black !important;
+	font-family: 'Roboto', sans-serif;
+    
+}
+
+.shift{
+	font-size:14px;
+	color:white !important;
+}
+
+.email{
+	margin:20px;
+}
+.email:hover{
+	color:#bb001b ;
+}
+.linkedin:hover{
+	color:#0e76a8;
+}
+.email>i:hover{
+  color:#bb001b ;
+  transform:scale(1.2);
+  transition:all 0.3s ease-in-out;
+}
+.linkedin>i:hover{
+  color:#0e76a8 ;
+  transform:scale(1.2);
+  transition:all 0.3s ease-in-out;
+}
+
+
+@media  (max-width:700px){
+
+	.shift{
+		font-size:10px;
+	}
+	.black{
+		font-size:18px;
+	}
+}
+@media  (min-width:700px) and (max-width:900px){
+
+	.shift{
+		font-size:10px;
+	}
+	.black{
+		font-size:18px;
+	}
+}
+
 p {
 	color:#666666;
 }
