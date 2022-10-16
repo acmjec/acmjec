@@ -25,9 +25,9 @@
 /*===================================*
   01. GENERAL STYLE
 *===================================*/
-:root{
-	--primary-color: #ffeb02;
-	--secondary-color:rgba(12, 14, 39, 0.70);
+:root {
+    --primary-color: #80807c;
+    --secondary-color: rgb(230 230 230);
 }
 body {
 	background: #ffffff none repeat scroll 0 0;
@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: "Montserrat", sans-serif;
 }
 .black{
-	color:black !important;
+	color:rgb(250, 15, 15) !important;
 	font-family: 'Roboto', sans-serif;
     
 }
@@ -201,17 +201,20 @@ button:focus {
 .btn.active:focus, .btn:active:focus {
 	box-shadow: none !important;
 }
+
 .btn-default {
-	background-color: var(--primary-color);
-	border: 2px solid var(--primary-color);
-	color: black !important;
-	padding: 10px 30px;
+    background-color: #f7f7f7;
+    border: 2px solid var(--primary-color);
+    color: black !important;
+    padding: 10px 30px;
+	
 }
 .btn-default:hover {
 	background-color: yellow;
 	border-color: yellow;
 	color: black;
 }
+
 .btn-white {
     background-color: #ffffff;
     border-color: #fff;
@@ -694,7 +697,7 @@ button:focus {
 	color: #333 !important;
 }
 .text_default {
-	color: var(--primary-color) !important;
+	color: #f6e33b !important;
 }
 .text_success {
 	color: #42b574 !important;
