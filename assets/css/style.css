@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .shift{
 	font-size:14px;
-	color:white !important;
+	color: var(--secondary-color) !important;
 }
 
 .email{
@@ -116,7 +116,7 @@ img {
 }
 .acm-logo{
 	margin: auto;
-	height: 10vw;
+	height: auto;
 	width: 15vw;
 }
 ul,li,ol {
@@ -241,7 +241,7 @@ button:focus {
 }
 .btn-outline-white:hover {
 	background-color: #fff;
-	color: var(--primary-color);
+	color: var(--secondary-color);
 }
 .btn-outline-black {
 	background-color: transparent;
@@ -902,7 +902,7 @@ button:focus {
 .dark_skin .logo_dark,
 .light_skin .logo_light {
 	display: block;
-	height: 3vw;
+	height: auto;
 	width: 5vw;
 	margin: 10px 0;
 }
@@ -3172,7 +3172,11 @@ header.sidebar_menu .bottom_content {
     background-color: #fff;
 }
 .testimonial_style3 .client_info span {
-	color: var(--primary-color);
+    color: var(--primary-color);
+    background: #080a20;
+    padding: 5px 8px;
+    border-radius: 8px 0;
+    font-size: 12px;
 }
 .testimonial_cl_info .testimonial_img {
     float: left;
@@ -3307,7 +3311,11 @@ header.sidebar_menu .bottom_content {
     margin-bottom: 10px;
 }
 .post_category a {
-    color: var(--primary-color);
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 14px;
 }
 .blog_content .blog_title {
     margin-bottom: 15px;
@@ -4580,6 +4588,14 @@ iframe {
     border-style: solid;
     border-width: 15px 20px 15px 0;
     border-color: transparent #fff transparent transparent;
+}
+.timeline_content p .text_default{
+    background: var(--primary-color);
+    color: var(--secondary-color) !important;
+    padding: 5px 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 14px;
 }
 .timeline_title {
     display: inline-block;
