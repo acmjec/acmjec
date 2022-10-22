@@ -26,8 +26,11 @@
   01. GENERAL STYLE
 *===================================*/
 :root{
-	--primary-color: #ffeb02;
+	--primary-color: #e4b12f;
 	--secondary-color:rgba(12, 14, 39, 0.70);
+}
+html{
+	scroll-behavior: smooth;
 }
 body {
 	background: #ffffff none repeat scroll 0 0;
