@@ -110,6 +110,7 @@ a {
 }
 a:hover {
 	color: var(--primary-color);
+	color:blue;
 	text-decoration: none;
 	transition: all .5s ease;
 }
