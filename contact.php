@@ -18,12 +18,12 @@ $successMsg = 'Thank you, mail sent successfully!';
 /**
  * Set the message that will be shown if not all fields are filled
  */
-$fillMsg    = 'Please fill all fields!';
+$fillMsg    = 'All the fields are mandatory!';
 
 /**
  * Set the message that will be shown on error
  */
-$errorMsg   = 'Hm.. seems there is a problem, sorry!';
+$errorMsg   = 'Hm... seems there is a problem, sorry!';
 
 /**
  * DO NOT EDIT ANYTHING BELOW THIS LINE, UNLESS YOU'RE SURE WHAT YOU'RE DOING

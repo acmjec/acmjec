@@ -241,7 +241,8 @@ button:focus {
 }
 .btn-outline-white:hover {
 	background-color: #fff;
-	color: var(--primary-color);
+	color:black;
+	/* color: var(--primary-color); */
 }
 .btn-outline-black {
 	background-color: transparent;
