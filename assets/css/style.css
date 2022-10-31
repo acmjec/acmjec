@@ -26,8 +26,11 @@
   01. GENERAL STYLE
 *===================================*/
 :root{
-	--primary-color: #ffeb02;
+	--primary-color: #e4b12f;
 	--secondary-color:rgba(12, 14, 39, 0.70);
+}
+html{
+	scroll-behavior: smooth;
 }
 body {
 	background: #ffffff none repeat scroll 0 0;
@@ -38,7 +41,8 @@ body {
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing:grayscale;
 }
-h1,h3,h4,h5,h6 {
+
+h1,h2,h3,h4,h5,h6 {
 	color: #292b2c;
 	/* text-decoration: underline; */
 	font-family: "Montserrat", sans-serif;
@@ -1348,6 +1352,9 @@ header .social_icons li a {
 	padding: 5px 0;
 	margin: 0;
 	font-size: 30px;
+}
+.navbar-collapse .bi{
+	margin-right: 12px;
 }
 .overlay_menu .navbar .navbar-nav li:hover > .dropdown-menu {
     display: none;
