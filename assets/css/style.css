@@ -41,12 +41,17 @@ body {
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing:grayscale;
 }
-navbar-nav .bi{
-	margin-right: 10px;
-}
+
 h1,h2,h3,h4,h5,h6 {
 	color: #292b2c;
+	/* text-decoration: underline; */
 	font-family: "Montserrat", sans-serif;
+}
+h2{
+	color: #292b2c;
+	text-decoration: underline;
+	font-family: "Montserrat", sans-serif;
+	line-height: normal;
 }
 .black{
 	color:black !important;
@@ -1648,6 +1653,7 @@ header.sidebar_menu .bottom_content {
 }
 .banner_content h2 {
 	font-size: 70px;
+	/* text-decoration: line-through; */
 	font-weight: 700;
 	margin-bottom: 25px;
 }
@@ -3097,7 +3103,7 @@ header.sidebar_menu .bottom_content {
 	margin-top: -20px;
 }
 .owl-theme .owl-dots .owl-dot span {
-    background-color: transparent;
+    background-color: grey;
     border: 1px solid #9a9a9a;
 	margin: 5px;
 }
@@ -4278,6 +4284,7 @@ iframe {
 .price_tage h2 {
     font-size: 40px;
     font-weight: bold;
+	/* text-decoration: dashed; */
 	margin: 0;
 }
 .price_tage h2 span {
