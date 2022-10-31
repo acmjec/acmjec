@@ -3746,6 +3746,11 @@ header.sidebar_menu .bottom_content {
 	margin-top: 30px;
 }
 
+.team_post {
+	font-weight: 500;
+	font-size: medium;
+}
+
 /*===================================*
   07. END PORTFOLIO SECTION
 *===================================*/
